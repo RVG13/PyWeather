@@ -18,7 +18,7 @@ root.title('Погода PyWeather')
 root.iconbitmap(default="cloud.ico")
 root.geometry('400x100+700+400')
 root.minsize(500, 200)
-root.maxsize(500, 500)
+root.maxsize(500, 200)
 
 label = Label(root, text='Узнать погоду в своём городе', font=("Arial", 16), background="#FFCDD2", foreground="#B71C1C")
 label.pack()
